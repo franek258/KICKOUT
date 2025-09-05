@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head><meta charset="UTF-8"><title>KICKOUT - Kontakt</title>
+<link rel="stylesheet" href="style.css"></head>
+<body>
+<header>
+<div class="logo"><img src="logo.png" alt="KICKOUT"></div>
+<nav>
+<a href="index.html">Strona główna</a>
+<a href="o nas.html">O nas</a>
+<a href="kolekcja.html">Kolekcja</a>
+<a href="kontakt.html">Kontakt</a>
+<a href="regulamin.html">Regulamin</a>
+</nav>
+<div class="right">
+<input type="text" placeholder="Szukaj produktów">
+<div class="cart" onclick="showCart()">Koszyk</div>
+</div>
+</header>
+
+<section>
+<h2>Kontakt</h2>
+<form>
+<input type="text" placeholder="Imię i nazwisko" required>
+<input type="email" placeholder="Email" required>
+<textarea placeholder="Wiadomość" rows="5" required></textarea>
+<button type="submit">Wyślij</button>
+</form>
+</section>
+
+<footer>
+&copy; 2025 KICKOUT. Wszelkie prawa zastrzeżone.
+<br>
+<a href="#">Instagram</a> | <a href="#">TikTok</a>
+</footer>
+
+<script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
